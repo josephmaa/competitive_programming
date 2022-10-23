@@ -3,5 +3,5 @@
 !*.*
 *.dSYM
 .vscode/
-
-
+*.o
+a.out
