@@ -56,5 +56,17 @@ int main()
 {
     int n;
     std::cin >> n;
-    std::vector<int> t{4 * n};
+    std::vector<int> t{ 4 * n + 1 };
+
+    int arr[n];
+    for (int i = 0; i < n; ++i) {
+        std::cin >> arr[i];
+    }
+
+    build(arr, &t, 1, 0, n - 1);
+
+    int q;
+    for (int i = 0; i < q; ++i) {
+        std::getline
+    }
 }
